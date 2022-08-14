@@ -1,7 +1,7 @@
 FROM python:latest
-COPY . /usr/app/
+COPY . /app
 EXPOSE 5000
 RUN pip install --upgrade pip
-WORKDIR /usr/app/
+WORKDIR /app
 RUN pip install -r requirements.txt
-CMD python app.py
+CMD gunicorn --workers=4 --bind 0.0.0.0:5000 app:app

@@ -1,6 +1,6 @@
 flask
 numpy
-pandas
+pandas 
 gunicorn
-pickle
+
 
