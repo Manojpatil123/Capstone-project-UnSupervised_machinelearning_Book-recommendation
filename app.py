@@ -14,7 +14,7 @@ app = Flask(__name__)
 def recommend_ui():
     return render_template('recommend.html')
 
-@app.route('/recommend_books')
+@app.route('/recommend_books',methods=['post'])
 def recommend():
     user_input = request.args.get('user_input')
     index = np.where(pt.index == user_input)[0][0]
