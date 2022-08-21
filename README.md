@@ -2,4 +2,4 @@
 
 
 for accessing deployed project click on this link=
-https://recommendation1233.herokuapp.com/recommend (enter book name that are in book dataset)
+https://recommendation1233.herokuapp.com/recommend (enter book name that is in book dataset)
