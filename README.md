@@ -1,9 +1,7 @@
 # Capstone-project-UnSupervised_machinelearning_Book-recommendation
 
 
-for accessing deployed project click on this link =
-
-<a href=https://recommendation1233.herokuapp.com/recommend>Book Recommendation System</a>
+for accessing deployed project click on this link = <a href=https://recommendation1233.herokuapp.com/recommend>Book Recommendation System</a>
 
 
 ## Description:
