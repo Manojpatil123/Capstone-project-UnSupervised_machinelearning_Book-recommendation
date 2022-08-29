@@ -18,6 +18,7 @@ The dataset consists of three tables; Books, Users, and Ratings. Data from all t
 ### For Books Table:
 
 Drop all three Image URL features.
+
 Check for the number of null values in each column. There comes only 3 null values in the table. Replace these three empty cells with ‘Other’.
 Check for the unique years of publications. Two values in the year column are publishers. Also, for three tuples name of the author of the book was merged with the title of the book. Manually set the values for these three above obtained tuples for each of their features using the ISBN of the book.
 Convert the type of the years of publications feature to the integer.
