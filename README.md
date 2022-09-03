@@ -27,7 +27,7 @@ For Users Table:
 Check for null values in the table. The Age column has more than 1 lakh null values.
 Check for unique values present in the Age column. There are many invalid ages present like 0 or 244.
 By keeping the valid age range of readers as 10 to 80 replace null values and invalid ages in the Age column with the mean of valid ages.
-The location column has 3 values city, state, and country. These are split into 3 different columns named; City, State, and Country respectively. In the case of null value, ‘other’ has been assigned as the entity value.
+The location column has 3 values city, state, and country. These are split into 3 different columns named; City, State, and Country respectively. In the case of null value, 'other' has been assigned as the entity value.
 Removal of duplicate entries from the table.
 
 ### For Ratings Table:
